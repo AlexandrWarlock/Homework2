@@ -92,7 +92,7 @@ public class Main {
         System.out.println("Задача 8");
         System.out.println("Всего в компании - " + numbersCompany + " человек");
         numbersCompany = numbersCompany + 94;
-        var newAllTimes = allTimes / numbersCompany;
+        var newAllTimes = everyoneWorkerHours * numbersCompany;
         System.out.println("Если в компании работает " + numbersCompany + " человек, то всего " + newAllTimes + " часов работы может быть поделено между сотрудниками");
 
     }
